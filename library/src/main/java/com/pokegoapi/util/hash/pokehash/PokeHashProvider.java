@@ -46,8 +46,8 @@ public class PokeHashProvider implements HashProvider {
 	@Setter
 	private String endpoint = DEFAULT_ENDPOINT;
 
-	private static final int VERSION = 6901;
-	private static final long UNK25 = 5395925083854747393L;
+	private static final int VERSION = 7903;
+	private static final long UNK25 = -6553495230586135539L;;
 
 	private static final Moshi MOSHI = new Builder().build();
 
